@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-matte-black: #0B0B0C;
+    --color-deep-black: #050505;
+    --color-panel-black: #121215;
+    --color-border-subtle: #242429;
+    --color-warm-ivory: #F7F5F0;
+    --color-soft-white: #FAF9F5;
+    --color-gold: #D4AF37;
+    --color-gold-muted: #C5A059;
+    --color-gold-light: #F3E5AB;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0B0B0C;
+    color: #FAF9F5;
+  }
+
+  h1, h2, h3, .font-serif-brand {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.04em;
+  }
+}
+
+/* Custom scrollbars for admin tables and drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0E0E11;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2A32;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3E3E4A;
+}

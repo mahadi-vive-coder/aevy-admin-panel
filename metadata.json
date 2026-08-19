@@ -1,0 +1,6 @@
+{
+  "name": "AEVY Admin",
+  "description": "Private administrative dashboard and management portal for AEVY luxury fragrance brand.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
